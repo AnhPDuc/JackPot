@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div style="height: 100%;">
+        <input class="Random_All" type="button" value="Quick Pick All" onclick="RandomAll()" />
+        <input class="choose_button" type="button" value="3" onclick="getNumberTable(3)" />
+        <input class="choose_button" type="button" value="5" onclick="getNumberTable(5)" />
+        <input class="choose_button" type="button" value="7" onclick="getNumberTable(7)" />
+        <input class="choose_button" type="button" value="10" onclick="getNumberTable(10)" />
+        <input class="choose_button" type="button" value="15" onclick="getNumberTable(15)" />
+        <input class="choose_button" type="button" value="20" onclick="getNumberTable(20)" />
+        <input class="choose_button" type="button" value="25" onclick="getNumberTable(25)" />
+
+
+    </div>
+    <div>
+        <form style="width:98%;float: left;margin:1.5em 1.5em 0.5em 1em" action="">
+            Create Table<input type="text" style="font-size: 1em;" id="Mul">
+            <input type="button" style="font-size: 1em;" value="Create" onclick="createMultiveTable()">
+        </form>
+    </div>
+
+    <div id="jackpot">
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
