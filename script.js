@@ -80,7 +80,7 @@ class TableJack {
         var tagColumn = document.createElement("td");
         tagColumn.colSpan = 5
         var tagButton = document.createElement("button");
-        tagButton.textContent = "RandomNumber"
+        tagButton.textContent = "Quick Pick"
         tagButton.classList.add('random_button')
         tagButton.onclick = () => {
             this.getRandom()
