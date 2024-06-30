@@ -1,10 +1,10 @@
 .jackpot {
     float: left;
-    width: 18%;
+    width: 18em;
     background-color: #bdc5f8;
     height: auto;
     border: solid black 0.1em;
-    margin: 1%;
+    margin: 0.5em;
 }
 
 
